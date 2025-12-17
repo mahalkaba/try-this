@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - I Miss You Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Form -->
+    <div class="form-container" id="login-form">
+        <h2>Login 💌</h2>
+        <input type="text" id="username" placeholder="Enter your name" required>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard" id="dashboard" style="display:none;">
+        <h2>Welcome, <span id="user-name"></span> 💖</h2>
+        <p id="message">hi, my love. i just want to say that i miss you, so please don't overthink na po. know that i only want you. ONLY YOU</p>
+        <button onclick="logout()" class="logout-btn">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
